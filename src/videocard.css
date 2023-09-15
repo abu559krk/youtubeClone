@@ -1,0 +1,28 @@
+.videoCard{
+    margin-bottom: 40px;
+    width: 270px;
+}
+.thumnailImage{
+    height: 140px;
+    width: 240px;
+}
+.video-infor{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.video-Text{
+    margin-left: 15px;
+}
+.video-Text > h4{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.video-Text > p{
+    color: dodgerblue;
+    font-size: 14px;
+}
+.videoCard-avatar{
+    height: 30px !important;
+    width: 30px !important;
+}

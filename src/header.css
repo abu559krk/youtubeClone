@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    z-index: 100;
+    background-color: rgb(176, 172, 172);
+    top: 0;
+}
+.header-logo{
+    height: 40px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+/* .avatar-logo{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+} */
+.header-input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px dotted green;
+}
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+.header-searchIcon{
+    width: 40px !important;
+    background-color: rgb(44, 43, 43);
+    color: blue;
+    border-left: 1px solid red;
+}
+.header-input > input{
+    flex: 1;
+    border: none;
+}
+.icon-one{
+    margin-right: 15px;
+}
+.icon-two{
+    margin-right: 8px;
+}
